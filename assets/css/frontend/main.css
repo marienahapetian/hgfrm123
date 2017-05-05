@@ -1,0 +1,126 @@
+.clear-float:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#content .hgfrm-form-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#content .hgfrm-form-field{
+    margin-bottom: 15px;
+}
+
+#content .hgfrm-form-field label{
+    display: block;
+    font-size: 16px;
+    color: #3b8a85;
+    font-family: cursive;
+}
+#content .hgfrm-form-field input[type=text],
+#content .hgfrm-form-field input[type=email],
+#content .hgfrm-form-field input[type=number],
+#content .hgfrm-form-field textarea,
+#content .hgfrm-form-field select{
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    height: auto;
+    padding: 5px;
+    max-width: 100%;
+    color: #666;
+}
+
+#content input[type=submit]{
+    background: #3b8a85;
+    color: #fff;
+    padding: 3px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-header{
+    background: #fff;
+}
+.CallToActionbtn, #content #contact-page form input[type="submit"], #mainnav, .slider-link-box .over-color, a#backtop, thead th{
+    background: #30b7ff;
+    color: #fff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    color: #999999;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+    border-color: #30b7ff;
+    color: #30b7ff;
+}
+.ui-state-default.ui-state-hover{
+    border-color: #b5ea15;
+    color: #a1ea15;
+}
+tbody tr:nth-child(even) td, tbody tr.even td{
+    background: none;
+}
+.huge-forms-captcha-box{
+    padding: 25px;
+    max-width: 350px;
+    background: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px ;
+    box-sizing: border-box;
+}
+.huge-forms-captcha-box>*{
+    box-sizing: border-box;
+}
+.huge-forms-captcha-box>a{
+    float: right;
+}
+
+
+
+
+.hgfrm-form-field:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* label position left */
+.hgfrm-form-field.label-left label{
+    float: left;
+    width: 20%;
+}
+.hgfrm-form-field.label-left>*:not(label){
+    width: 75%!important;
+    float: right;
+}
+
+/* label position right */
+.hgfrm-form-field.label-right label{
+    float: right;
+    width: 20%;
+}
+.hgfrm-form-field.label-right>*:not(label){
+    width: 75%!important;
+    float: left;
+}
+
+/* label position hidden */
+#content .hgfrm-form-field.hidden label{
+    display: none;
+}
+
+.help-block{
+    font-style: italic;
+    color: #999999;
+    font-size: 13px;
+}
+
+#content .hgfrm-form-field .field-row{
+    margin-bottom: 15px;
+}
+#content .hgfrm-form-field .field-row .one-half{
+    width: 49%;
+}

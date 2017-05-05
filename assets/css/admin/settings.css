@@ -1,0 +1,16 @@
+#hgfrm-settings .setting-row{
+    width: 100%;
+}
+#hgfrm-settings .setting-row input[type=text]{
+    width: 80%;
+}
+#hgfrm-settings .setting-row select{
+    min-width: 100px;
+}
+#hgfrm-settings .setting-row .inline-label{
+    display: inline-block;
+    margin-right: 5px;
+}
+#save-form-button{
+    padding: 10px 15px;
+}
