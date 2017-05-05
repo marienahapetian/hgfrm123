@@ -3,7 +3,7 @@
  * Plugin Name: Huge Forms
  * Author: Mari Nahapetyan <a href="http://huge-it.com">Huge-IT</a>
  * Description: Easy to use Form Plugin for creating simple to custom complex forms
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 if(!defined('ABSPATH')){
